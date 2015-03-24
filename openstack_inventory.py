@@ -28,6 +28,13 @@
 # package.
 # * The environment variables OS_USERNAME, OS_PASSWORD, OS_TENANT_NAME,
 # OS_AUTH_URL must be set according to nova.
+#eg- add in .bash_profile
+#export OS_PASSWORD=
+#export OS_AUTH_URL=
+#export OS_USERNAME=
+#export OS_TENANT_NAME=
+#export OS_NO_CACHE=
+
 #
 # *** Short comings ***
 # Currently, the name of the network is hardcoded in the global variable
