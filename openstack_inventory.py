@@ -37,7 +37,7 @@
 ################################################################################
 
 from __future__ import print_function
-from novaclient.v1_1 import client
+from novaclient.v2 import client
 import os, sys, json
 
 OS_METADATA_KEY = {
